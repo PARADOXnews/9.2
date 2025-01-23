@@ -3,10 +3,13 @@
 }
 
 #foto {
-   overflow:hidden
+   overflow: hidden
 }
 
-main {width:100%;} 
+main {
+   width: 100%;
+}
+
 .copyright p {
    color: #717680;
    font-family: Inter;
@@ -63,6 +66,11 @@ main {width:100%;}
    width: 100%;
 }
 
+.link {
+   max-width: 320px;
+   width: 100%;
+}
+
 .menu p {
    color: #181D27;
    font-family: Inter;
@@ -101,7 +109,9 @@ main {width:100%;}
 .footer>div:first-child {
    width: 100%;
 }
-
+.shot {
+   display:none
+}
 footer {
    height: 472px;
    padding: var(--spacing-7xl, 64px) 0px var(--spacing-6xl, 48px) 0px;
@@ -262,7 +272,7 @@ footer {
    background: #F2EDFF;
    padding: 96px 0;
    width: 100%;
-   
+
 }
 
 
@@ -343,7 +353,14 @@ main {
    /* 150% */
 }
 
+.b {
+   padding-left: 32px;
+   padding-right: 32px;
+}
+
 .finance {
+   padding-left: 32px;
+   padding-right: 32px;
    max-width: 1280px;
    width: 100%;
 }
@@ -411,6 +428,8 @@ main {
 .only>div:first-child {
    width: 100%;
    max-width: 1280px;
+   padding-left: 32px;
+   padding-right: 32px;
 }
 
 .ads h2 {
@@ -425,6 +444,8 @@ main {
 }
 
 .ads div {
+   padding-left: 32px;
+   padding-right: 32px;
    flex-wrap: wrap;
    max-width: 1280px;
    width: 100%;

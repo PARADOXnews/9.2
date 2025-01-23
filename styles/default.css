@@ -35,6 +35,8 @@ header {
 }
 
 .header {
+   padding-left: 32px;
+   padding-right: 32px;
    display: flex;
    max-width: 1280px;
    width: 100%;
@@ -68,6 +70,11 @@ footer {
    max-width: 1280px;
    width: 100%;
    align-items: center;
+}
+
+.p {
+   padding-left: 32px;
+   padding-right: 32px;
 }
 
 .dflex {

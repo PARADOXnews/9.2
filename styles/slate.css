@@ -1,9 +1,43 @@
 @media screen and (min-width:768px) and (max-width:1023px) {
-   .header ul,.header .btn{
-      display:none;
-   }
-   .header img[alt="borgir"] {
-      display:flex;
+
+   .header ul,
+   .header .btn {
+      display: none;
    }
 
+   .header img[alt="borgir"] {
+      display: flex;
+   }
+
+   .woman {
+      flex-direction: column;
+   }
+
+   .ads {
+      max-width: 704px;
+   }
+
+   .share {
+      flex-direction: column;
+   }
+
+   .b {
+      flex-direction: column;
+   }
+
+   .plans {align-self:center;}
+   .c {gap:64px;}
+
+   .purple {border-radius:24px 24px 0 0 }
+   .woman img {border-radius:0 0 24px 24px}
+
+   .footer >div{flex-direction: column;}
+   .menu {flex-direction: column-reverse;}
+
+   .footer .copyright {flex-direction: row;}
+
+   footer {height:unset}
+
+   .footer >div:first-child {gap:48px;}
+   
 }
