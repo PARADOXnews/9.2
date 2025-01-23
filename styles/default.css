@@ -1,0 +1,167 @@
+* {
+   box-sizing: border-box;
+   text-transform: capitalize;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+body {
+   font-family: Inter;
+}
+
+button,
+input {
+   background-color: inherit;
+}
+
+ul {
+   list-style-type: none;
+}
+
+.header ul {
+   display: flex;
+   gap: 16px;
+}
+
+a {
+   text-decoration: none;
+}
+
+header {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.header {
+   display: flex;
+   max-width: 1280px;
+   width: 100%;
+   height: 80px;
+   justify-content: space-between;
+   align-items: center;
+}
+
+main {
+   display: flex;
+   justify-content: center;
+}
+
+.center {
+   display: flex;
+   flex-direction: column;
+   max-width: 1440px;
+   width: 100%;
+   align-items: flex-start;
+   gap: 32px;
+}
+
+footer {
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+}
+
+.footer {
+   display: flex;
+   max-width: 1280px;
+   width: 100%;
+   align-items: center;
+}
+
+.dflex {
+   display: flex;
+}
+
+.cflex {
+   display: flex;
+   flex-direction: column;
+}
+
+.ais {
+   display: flex;
+   align-items: flex-start;
+}
+
+.aie {
+   display: flex;
+   align-items: flex-end;
+}
+
+.aic {
+   display: flex;
+   align-items: center;
+}
+
+.jcs {
+   display: flex;
+   justify-content: flex-start;
+}
+
+.jce {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.jcc {
+   display: flex;
+   justify-content: center;
+}
+
+.jcb {
+   display: flex;
+   justify-content: space-between;
+}
+
+/* numbers */
+
+.samocdaotxi {
+   display: flex;
+   gap: 64px;
+}
+
+.ormocdarva {
+   display: flex;
+   gap: 48px;
+}
+
+.ocdatormeti {
+   display: flex;
+   gap: 32px;
+}
+
+.ocdaotxi {
+   display: flex;
+   gap: 24px;
+}
+
+.oci {
+   display: flex;
+   gap: 20px
+}
+
+.teqsvmeti {
+   display: flex;
+   gap: 16px;
+}
+
+.tormeti {
+   display: flex;
+   gap: 12px;
+}
+
+.rva {
+   display: flex;
+   gap: 8px;
+}
+
+.eqvsi {
+   display: flex;
+   gap: 6px;
+}
+
+.otxi {
+   display: flex;
+   gap: 4px;
+}
