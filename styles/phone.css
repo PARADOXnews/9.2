@@ -75,5 +75,17 @@
       flex-direction: column;
    }
 
-   .shot {max-width: 288px;width:100%;}
+   .give {
+      padding: var(--spacing-5xl, 40px) var(--spacing-3xl, 24px) var(--spacing-6xl, 48px) var(--spacing-3xl, 24px);
+      border-radius: 16px 16px 0 0;
+      background: #53389E;
+   }
+
+   .shot {
+      max-width: 288px;
+      width: 100%;
+      display: flex;
+   }
+   .only >div:first-child {flex-direction: column;}
+   .simple {max-width: unset;}
 }

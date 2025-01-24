@@ -109,9 +109,63 @@ main {
 .footer>div:first-child {
    width: 100%;
 }
-.shot {
-   display:none
+
+.give div button:first-child {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 24px;
+   /* 150% */
+   padding: var(--spacing-lg, 12px) 18px;
+   border-radius: var(--radius-md, 8px);
+   background: #7F56D9;
 }
+
+.shot img[alt="qali"] {
+   border-radius:0 0 16px 16px;
+}
+
+.give div button:nth-child(2) {
+   border-radius: var(--radius-md, 8px);
+border: 1px solid #D5D7DA;
+background: #FFF;color: #414651;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 150% */
+padding: var(--spacing-lg, 12px) 18px;
+/* Shadows/shadow-xs-skeuomorphic */
+box-shadow: 0px 0px 0px 1px var(--Colors-Effects-Shadows-shadow-skeumorphic-inner-border, rgba(10, 13, 18, 0.18)) inset, 0px -2px 0px 0px var(--Colors-Effects-Shadows-shadow-skeumorphic-inner, rgba(10, 13, 18, 0.05)) inset, 0px 1px 2px 0px var(--Colors-Effects-Shadows-shadow-xs, rgba(10, 13, 18, 0.05));  
+}
+
+.give div h1 {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 38px;
+   /* 126.667% */
+}
+
+.give div p {
+   color: #E9D7FE;
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 28px;
+   /* 155.556% */
+}
+
+.shot {
+   display: none;
+   align-self: center;
+}
+
 footer {
    height: 472px;
    padding: var(--spacing-7xl, 64px) 0px var(--spacing-6xl, 48px) 0px;
